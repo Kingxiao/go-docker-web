@@ -1,0 +1,27 @@
+#Binaries for programs and plugins
+#二进制库程序和插件
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Goland IDE files
+# Goland IDE文件
+.idea 
+
+# Dependences (more on this later)
+# 依赖
+vendor/
+
+# Ignore our binary
+# 忽略本项目的二进制文件
+go-docker-demo
+
+# Test binary,build with `go test -c`
+*.test
+
+#Output of the go coverage tool,specifically when used with LiteIDE
+*.out
+
+
